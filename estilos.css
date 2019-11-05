@@ -1,0 +1,90 @@
+/* aqui quitamos el margen que genera html por defaul*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/* aqui hacemos la caja del header*/
+header{
+	width: 100%;
+	background: #086A87;
+	height: 70px;
+	position: fixed;
+	z-index: 10;
+}
+/*Aqui modificamos el ancho*/
+.ancho{
+	width: 80%;
+	height: 70px;
+	background: #086A87;
+	margin: auto;
+}
+/*Aqui modificamos la caja del logo*/
+.logo{
+	width: 30%;
+	height: 50px;
+	background: #086A87;
+	float: left;
+}
+/* aqui modificamos el logo */
+.logo p a{
+	color: #fff;
+	font-size: 40px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: amita;
+}
+/* aqui modificamos el menu*/
+nav{
+	width: 70%;
+	height: 70px;
+	background: #086A87;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+/* aqui modificamos el menu en cuestion de horientacion*/
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: archivo;
+}
+/*Se modifica el color al pasar el mouse*/
+nav ul li a:hover{
+	color:#444;
+}
+/* aqui agregamos estilos de fuentes*/
+@font-face{
+	font-family: amita;
+	src: url(fuentes/Amita-Regular.ttf);
+}
+@font-face{
+	font-family: archivo;
+	src: url(fuentes/ArchivoNarrow-Regular.ttf);
+
+}
+
+.correr{
+	position: absolute;
+	left: 110px;
+	top: 60px;
+}
+
+table,tr,td{
+	border: 1px  solid black;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 10px 5px;
+}

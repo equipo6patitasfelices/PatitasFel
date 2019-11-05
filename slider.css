@@ -1,0 +1,35 @@
+#particles-js{
+	background: url(imagenes/inicio1c.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+}
+.ancho-letras{
+	top: 100px;
+	position: absolute;
+	width: 100%;
+	/*background: rgba(0,0,0,.8);->fondo de visualizacion*/ 
+	text-align: center;
+	z-index: 1;
+
+}
+.letras-slider{
+	width: 80%;
+	margin: auto;
+}
+.letras-slider h1{
+	color:#D358F7;
+	font-family: pacifico;
+	font-size: 40px;
+}
+.letras-slider p{
+	color:#000;
+	font-family: archivo;
+	font-size: 18px;
+	padding-top: 50px;
+}
+@font-face{
+	font-family: pacifico;
+	src: url(fuentes/pacifico-Regular.ttf);
+
+}
