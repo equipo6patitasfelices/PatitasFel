@@ -1,0 +1,36 @@
+libros progra
+https://www.freelibros.org/tag/programacion
+
+cursos por lectura de progra
+https://cacharrerosdelaweb.com/2016/04/listado-cursos-de-informatica-online.html#Aprende-sobre-C-PHP-HTML5-Logica-de-Programacion-entre-otros
+
+Colores para web
+https://html-color-codes.info/codigos-de-colores-hexadecimales/
+
+Documentacion de HTML5
+http://librosweb.es/libro/xhtml/
+
+tipos de letras
+https://fonts.google.com
+
+Animacion de particulas
+http://vincentgarreau.com/particles.js/
+
+librerias de JQuery
+https://developers.google.com/speed/libraries/
+
+Animaciones css
+https://daneden.github.io/animate.css/
+
+Iconos
+https://fontawesome.com/
+
+colores de redes sociales
+https://www.designpieces.com/2012/12/social-media-colours-hex-and-rgb/
+
+super simple slider
+http://supersimpleslider.com/
+
+mesclador de colores
+https://color.adobe.com/es/create/color-wheel/?base=2&rule=Monochromatic&selected=2&name=Mi%20tema%20de%20Color&mode=rgb&rgbvalues=0.5,0.33249344974138195,0.0216758696962584,1,0.7700452937679838,0.34335173939251673,1,0.6649868994827639,0.0433517393925168,0.5,0.37716365509857247,0.14923408813594818,0.8,0.5319895195862111,0.03468139151401344&swatchOrder=0,1,2,3,4
+
