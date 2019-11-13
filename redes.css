@@ -1,0 +1,39 @@
+/*Escructura de los iconos de redes sociales*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.red{
+	position: fixed;
+	top: 200px;
+	z-index: 100;
+	left: 0;
+
+}
+.red .item{
+	padding: 5px 25px;
+	width: 20px;
+	-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 50ms ease;
+}
+.red .item:hover{
+	padding: 5px 32px;
+	background: #555;
+}
+.red .red-facebook{
+	background: #3b5998;
+}
+.red .red-youtube{
+	background: #ff0000;
+}
+.red .red-twiter{
+	background: #55acee;
+}
+.red .red-googleplus{
+	background: #dd4b39;
+}
+.red .red-instagram{
+	background: #FEC05D;
+}

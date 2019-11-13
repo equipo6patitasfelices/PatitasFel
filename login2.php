@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>LOGIN</title>
-        <link rel="stylesheet" href="estilos.css">
-        <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
     <link rel="stylesheet" type="text/css" href="slider.css">
     <link rel="stylesheet" type="text/css" href="animate.css">
     <link rel="stylesheet" type="text/css" href="secciones.css">
@@ -23,19 +23,19 @@
         
         <body>
     <div class="red">
-        <a href="https://www.facebook.com/lupisanimalista/" target="_blank">
+        <a href="https://www.facebook.com/patitas.felices.3154" target="_blank">
             <div class="item red-facebook">
                 <i class="fab fa-facebook-f fa-fw" style="color:#fff"></i>  
             </div>
         </a>
 
-        <a href="https://www.youtube.com/channel/UCx0SPy6syUq7VflcJhPNkyA" target="_blank">
+        <a href="https://www.youtube.com/channel/UCb1fcWzBuQ0ez-e5Ic_8Clw?view_as=subscriber" target="_blank">
             <div class="item red-youtube">
                 <i class="fab fa-youtube fa-fw" style="color:#fff"></i> 
             </div>
         </a>
 
-        <a href="https://twitter.com/lupissapien?s=08" target="_blank">
+        <a href="https://twitter.com/PatitasFelices9" target="_blank">
             <div class="item red-twiter">
                 <i class="fab fa-twitter fa-fw" style="color:#fff"></i> 
             </div>
@@ -43,7 +43,7 @@
 
         
 
-        <a href="https://www.instagram.com/lupissapien/" target="_blank">
+        <a href="https://www.instagram.com" target="_blank">
             <div class="item red-instagram">
                 <i class="fab fa-instagram fa-fw" style="color:#fff"></i>   
             </div>
@@ -52,48 +52,46 @@
     <header>
         <div class="ancho">
             <div class="logo">
-                <p><a href="index1.html">Adoptando</a></p>
+                <p><a href="index1.html">PATITAS FELICES</a></p>
             </div>
             <nav>
                 <ul>
                     <li><a href="Catalogo.html">cachoros</a></li>
                     <li><a href="#conect">Contactanos</a></li>
-                    <li><a href="index1.html#prueba">Servicios</a></li>
+                    <li><a href="index1.html">Servicios</a></li>
                     <li><a href="login.php">Unete</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <br><br><br>
-    <br><br><br>
+    
 
 
 
 
+<?php
 
-        <?php
 
-
-        $user='lupis';
+        $user='root';
         $pass='1234';
         $form_user=$_POST['user'];
         $form_pass=$_POST['pass'];
 
         if ($user==$form_user) {
             if ($pass==$form_pass) {
-                echo "Te haz logeado correctamente ";
-                $mysqli = new mysqli("localhost", "root", "dzc312354790", "adoptando1");
+                echo ("Te haz logeado correctamente");
+                $mysqli = new mysqli('localhost','root','','patitas_felices');
 
                 /* comprobar la conexión */
                 if ($mysqli->connect_errno) {
-                printf("Falló la conexión: %s\n", $mysqli->connect_error);
+                echo("Falló la conexión: %s\n". $mysqli->connect_error);
                 exit();
                 }
 
-                        /*$query="SELECT * FROM persona";*/
-                        if ($resultado = $mysqli->query("SELECT * FROM Contacto")) {
-                    printf("Bienvenido lupis");
+                        /*$query="SELECT * FROM usuarios";*/
+                        if ($resultado = $mysqli->query("SELECT * FROM usuarios")) {
+                    echo("Bienvenido admin");
                         }
 
 
@@ -139,6 +137,6 @@ echo "</tbody>
     </body>
     <footer>
     <div>Todos los derechos reservados </div>
-    <div>www.adoptando.com</div>
-</footer>
+    <div>www.patitas_felices.com</div>
+    </footer>
 </html>
